@@ -164,7 +164,7 @@ The pre-trained model ViT-L-14.pt are downloaded in advance from https://openaip
 
 **✅ Visualization on distribution of the adapted features**
 
-1️⃣ Please ensure that you have specified the file path (e.g., `DATA` and `DIR ` in `CoOp/scripts/VLAD/test_pacs.sh` and `VLAD/CoOp/scripts/VLAD/test_ccd.sh`) and use  **`VIZ.FeatDiv True True`**.
+1️⃣ Please ensure that you have specified the file path (e.g., `DATA` and `DIR ` in `CoOp/scripts/VLAD/test_pacs.sh` and `VLAD/CoOp/scripts/VLAD/test_ccd.sh`) and use  **`VIZ.FeatDiv True`**.
 
 2️⃣  Run `bash test_ccd.sh` or  `bash test_pacs.sh` under  ``CoOp/scripts/VLAD` to visualize the density curves of the pre-trained image features or adapted image features. 
 
