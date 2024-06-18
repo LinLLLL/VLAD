@@ -25,7 +25,7 @@ Fig (a) Examples of the two-type of distribution shifts. The training examples h
 This code is built on top of the awesome [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch) and [CoOp]([KaiyangZhou/CoOp: Prompt Learning for Vision-Language Models (IJCV'22, CVPR'22) (github.com)](https://github.com/KaiyangZhou/CoOp))., run `pip install -r requirements.txt` under `VLAD/CoOp/` to install the required packages.
 
 ```python
-git clone https://github.com/LinLLLL/VLAD.git
+git clone https://github.com/LinLLLL/VLAD
 cd VLAD-main/CoOp
 
 conda create -n vlad python=3.9
@@ -53,9 +53,9 @@ Please make sure that the directory structure of each dataset is arranged as fol
 PACS
 ├── images
     ├── art_painting
-		├── cartoon
-		├── photo
-		└── sketch
+    ├── cartoon
+    ├── photo
+    └── sketch
 ├── test_on_art_painting.json
 ├── test_on_cartoon.json
 ├── test_on_photo.json
@@ -68,9 +68,9 @@ PACS
 VLCS
 ├── images
     ├── CALTECH
-		├── LABELME
-		├── PASCAL
-		└── SUN
+    ├── LABELME
+    ├── PASCAL
+    └── SUN
 ├── test_on_caltech.json
 ├── test_on_labelme.json
 ├── test_on_pascal.json
